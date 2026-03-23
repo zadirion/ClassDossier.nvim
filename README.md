@@ -35,11 +35,6 @@ The plugin collects that information from your LSP and renders it in a dedicated
 
 - Neovim with built-in LSP
 - An attached LSP server with good symbol support
-- A `get_main_class` Lua module that exports:
-
-```lua
-require("get_main_class").get_main_class
-```
 
 The plugin gets the initial target from `get_main_class()`. If that fails, it falls back to the symbol under the cursor.
 
