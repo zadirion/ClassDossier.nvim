@@ -1,3 +1,5 @@
+![screenshot](./screenshot.png)
+
 # ClassDossier.nvim
 
 ClassDossier.nvim opens a navigable overview card for the current class or symbol and shows how it fits into the rest of the codebase.
