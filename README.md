@@ -59,7 +59,7 @@ For the best results, your LSP should support as many of these as possible:
 
 ```lua
 {
-  "yourname/classdossier.nvim",
+  "zadirion/ClassDossier.nvim",
   config = function()
     require("class_dossier").setup()
   end,
@@ -70,7 +70,7 @@ For the best results, your LSP should support as many of these as possible:
 
 ```lua
 use {
-  "yourname/classdossier.nvim",
+  "zadirion/ClassDossier.nvim",
   config = function()
     require("class_dossier").setup()
   end,
