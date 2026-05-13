@@ -42,7 +42,7 @@ local function count_impls(bare_name, text)
   local pos = 1
   local pattern = bare_name .. "%s*::"
   while true do
-    pos = text:find(pattern, pos, true)
+    pos = text:find(pattern, pos)
     if not pos then break end
     count = count + 1
     pos = pos + #bare_name
